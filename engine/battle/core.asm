@@ -30,6 +30,7 @@ INCLUDE "constants/type_constants.inc"
 
 
 SECTION "engine/battle/core.asm", ROMX
+BattleCore:
 
 ; Core components of the battle engine.
 
