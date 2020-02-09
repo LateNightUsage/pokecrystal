@@ -14,4 +14,9 @@ MetronomeExcepts:
 	db DESTINY_BOND
 	db SLEEP_TALK
 	db THIEF
+	db TELEPORT
+	db GROWL
+	db SPLASH
+	db SNORE
+	db TAIL_WHIP
 	db -1

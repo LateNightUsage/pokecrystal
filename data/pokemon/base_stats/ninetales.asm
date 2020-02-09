@@ -1,6 +1,6 @@
 	db NINETALES ; 038
 
-	db  73,  76,  75, 100,  81, 100
+	db  80,  76,  72, 100,  88, 105
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type

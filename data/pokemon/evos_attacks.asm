@@ -48,6 +48,7 @@ IvysaurEvosAttacks:
 	db 29, SWEET_SCENT
 	db 38, GROWTH
 	db 47, SYNTHESIS
+	db 50, SLUDGE_BOMB
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -522,6 +523,7 @@ JigglypuffEvosAttacks:
 	db 29, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
+	db 50, MOONLIGHT
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
@@ -1100,6 +1102,7 @@ MagnemiteEvosAttacks:
 	db 33, SWIFT
 	db 39, SCREECH
 	db 45, ZAP_CANNON
+	db 50, THUNDER
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
@@ -1116,6 +1119,7 @@ MagnetonEvosAttacks:
 	db 35, TRI_ATTACK
 	db 43, SCREECH
 	db 53, ZAP_CANNON
+	db 60, THUNDER
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -1599,6 +1603,7 @@ SeadraEvosAttacks:
 	db 29, TWISTER
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
+	db 65, GROWTH
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
@@ -2506,8 +2511,9 @@ SudowoodoEvosAttacks:
 	db 10, FLAIL
 	db 19, LOW_KICK
 	db 28, ROCK_SLIDE
-	db 37, FAINT_ATTACK
-	db 46, SLAM
+	db 37, LEECH_SEED
+	db 46, BODY_SLAM
+	db 51, SYNTHESIS
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:
@@ -2523,11 +2529,11 @@ PolitoedEvosAttacks:
 HoppipEvosAttacks:
 	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
-	db 1, SPLASH
+	db 1, POISONPOWDER
 	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
+	db 5, SCREECH
 	db 10, TACKLE
-	db 13, POISONPOWDER
+	db 13, SUNNY_DAY
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
 	db 20, LEECH_SEED
@@ -2538,14 +2544,14 @@ HoppipEvosAttacks:
 SkiploomEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
-	db 1, SPLASH
+	db 1, POISONPOWDER
 	db 1, SYNTHESIS
 	db 1, TAIL_WHIP
 	db 1, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
 	db 10, TACKLE
-	db 13, POISONPOWDER
+	db 13, SUNNY_DAY
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
 	db 22, LEECH_SEED
@@ -2555,14 +2561,14 @@ SkiploomEvosAttacks:
 
 JumpluffEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPLASH
+	db 1, POISONPOWDER
 	db 1, SYNTHESIS
 	db 1, TAIL_WHIP
 	db 1, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
 	db 10, TACKLE
-	db 13, POISONPOWDER
+	db 13, SUNNY_DAY
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
 	db 22, LEECH_SEED
@@ -2881,7 +2887,7 @@ SneaselEvosAttacks:
 	db 9, QUICK_ATTACK
 	db 17, SCREECH
 	db 25, FAINT_ATTACK
-	db 33, FURY_SWIPES
+	db 33, PURSUIT
 	db 41, AGILITY
 	db 49, SLASH
 	db 57, BEAT_UP
@@ -3073,6 +3079,7 @@ KingdraEvosAttacks:
 	db 29, TWISTER
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
+	db 65, GROWTH
 	db 0 ; no more level-up moves
 
 PhanpyEvosAttacks:
