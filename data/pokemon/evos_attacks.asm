@@ -709,6 +709,7 @@ PersianEvosAttacks:
 	db 38, SCREECH
 	db 46, FURY_SWIPES
 	db 53, SLASH
+	db 58, CRUNCH
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
@@ -1057,6 +1058,7 @@ RapidashEvosAttacks:
 	db 40, FURY_ATTACK
 	db 47, AGILITY
 	db 61, FIRE_BLAST
+	db 69, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1465,6 +1467,7 @@ HitmonchanEvosAttacks:
 	db 38, MEGA_PUNCH
 	db 44, DETECT
 	db 50, COUNTER
+	db 60, CROSS_CHOP
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:
@@ -2218,6 +2221,8 @@ FurretEvosAttacks:
 	db 28, SLAM
 	db 38, REST
 	db 48, AMNESIA
+	db 50, REFLECT
+	db 67, SUBSTITUTE
 	db 0 ; no more level-up moves
 
 HoothootEvosAttacks:
@@ -2391,6 +2396,8 @@ TogepiEvosAttacks:
 	db 25, ENCORE
 	db 31, SAFEGUARD
 	db 38, DOUBLE_EDGE
+	db 40, SUBSTITUTE
+	db 48, SYNTHESIS
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
@@ -2524,6 +2531,7 @@ PolitoedEvosAttacks:
 	db 1, PERISH_SONG
 	db 35, PERISH_SONG
 	db 51, SWAGGER
+	db 55, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
@@ -2984,6 +2992,7 @@ CorsolaEvosAttacks:
 	db 19, RECOVER
 	db 25, BUBBLEBEAM
 	db 31, SPIKE_CANNON
+	db 35, LIGHT_SCREEN
 	db 37, MIRROR_COAT
 	db 43, ANCIENTPOWER
 	db 0 ; no more level-up moves
@@ -3162,6 +3171,7 @@ HitmontopEvosAttacks:
 	db 19, QUICK_ATTACK
 	db 25, RAPID_SPIN
 	db 31, COUNTER
+	db 35, SPIKES
 	db 37, AGILITY
 	db 43, DETECT
 	db 49, TRIPLE_KICK

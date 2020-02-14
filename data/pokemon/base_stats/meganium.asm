@@ -1,6 +1,6 @@
 	db MEGANIUM ; 154
 
-	db  80,  90, 100,  82,  83, 100
+	db  85,  90, 100,  80,  83, 100
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GRASS ; type

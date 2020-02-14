@@ -1,6 +1,6 @@
 	db SANDSLASH ; 028
 
-	db  75, 100, 110,  65,  45,  55
+	db  80, 100, 110,  72,  45,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type

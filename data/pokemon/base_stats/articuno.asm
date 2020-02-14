@@ -1,6 +1,6 @@
 	db ARTICUNO ; 144
 
-	db  90,  85, 100,  85,  95, 125
+	db  110, 85, 105,  85,  99, 125
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, FLYING ; type

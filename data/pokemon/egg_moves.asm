@@ -485,6 +485,7 @@ HoothootEggMoves:
 	db WING_ATTACK
 	db WHIRLWIND
 	db SKY_ATTACK
+	db PSYCHIC_M
 	db -1 ; end
 
 LedybaEggMoves:
@@ -535,7 +536,8 @@ TogepiEggMoves:
 	db MIRROR_MOVE
 	db PECK
 	db FORESIGHT
-	db FUTURE_SIGHT
+	db HEAL_BELL
+	db ACID_ARMOR
 	db -1 ; end
 
 NatuEggMoves:
@@ -568,6 +570,8 @@ MarillEggMoves:
 
 SudowoodoEggMoves:
 	db SELFDESTRUCT
+	db LIGHT_SCREEN
+	db ANCIENTPOWER
 	db -1 ; end
 
 HoppipEggMoves:
@@ -709,6 +713,7 @@ CorsolaEggMoves:
 	db SAFEGUARD
 	db SCREECH
 	db MIST
+	db REFLECT
 	db AMNESIA
 	db -1 ; end
 

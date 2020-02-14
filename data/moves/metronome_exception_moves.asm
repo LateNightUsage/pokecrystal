@@ -19,4 +19,7 @@ MetronomeExcepts:
 	db SPLASH
 	db SNORE
 	db TAIL_WHIP
+	db FLAIL
+	db DISABLE
+	db BIDE
 	db -1
