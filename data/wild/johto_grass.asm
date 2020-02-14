@@ -1205,17 +1205,17 @@ JohtoGrassWildMons:
 	db 2, SENTRET
 	db 3, PIDGEY
 	db 3, SENTRET
+	db 3, HOPPIP
+	db 3, HOPPIP
 	db 2, RATTATA
-	db 3, HOPPIP
-	db 3, HOPPIP
 	; nite
 	db 2, HOOTHOOT
-	db 2, RATTATA
+	db 2, SPINARAK
 	db 3, HOOTHOOT
-	db 3, RATTATA
-	db 2, RATTATA
+	db 3, SPINARAK
 	db 3, HOOTHOOT
 	db 3, HOOTHOOT
+	db 2, MURKROW
 
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

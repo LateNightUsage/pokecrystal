@@ -5,7 +5,9 @@ SECTION "NULL", ROM0
 
 NULL::
 
+
 INCLUDE "home/rst.asm"
+
 
 INCLUDE "home/interrupts.asm"
 
@@ -36,15 +38,37 @@ INCLUDE "home/video.asm"
 INCLUDE "home/map_objects.asm"
 INCLUDE "home/sine.asm"
 INCLUDE "home/movement.asm"
-INCLUDE "home/menu_window.asm"
 INCLUDE "home/menu.asm"
+INCLUDE "home/menu_window.asm"
+INCLUDE "home/menu2.asm"
 INCLUDE "home/handshake.asm"
 INCLUDE "home/game_time.asm"
 INCLUDE "home/map.asm"
+
+InexplicablyEmptyFunction::
+; unused
+; Inexplicably empty.
+; Seen in PredefPointers.
+rept 16
+	nop
+endr
+	ret
+
 INCLUDE "home/farcall.asm"
 INCLUDE "home/predef.asm"
 INCLUDE "home/window.asm"
 INCLUDE "home/flag.asm"
+
+Unreferenced_CheckBPressedDebug::
+; Used in debug ROMs to walk through walls and avoid encounters.
+
+	ld a, [wDebugFlags]
+	bit DEBUG_FIELD_F, a
+	ret z
+
+	ldh a, [hJoyDown]
+	bit B_BUTTON_F, a
+	ret
 
 xor_a::
 	xor a
@@ -55,9 +79,20 @@ xor_a_dec_a::
 	dec a
 	ret
 
+Unreferenced_CheckFieldDebug::
+	push hl
+	ld hl, wDebugFlags
+	bit DEBUG_FIELD_F, [hl]
+	pop hl
+	ret
+
 INCLUDE "home/sprite_updates.asm"
 INCLUDE "home/string.asm"
 INCLUDE "home/region.asm"
+
+ret_2f3e::
+	ret
+
 INCLUDE "home/item.asm"
 INCLUDE "home/random.asm"
 INCLUDE "home/sram.asm"
@@ -183,3 +218,4 @@ INCLUDE "home/mon_data_2.asm"
 INCLUDE "home/battle.asm"
 INCLUDE "home/sprite_anims.asm"
 INCLUDE "home/audio.asm"
+INCLUDE "home/mobile.asm"

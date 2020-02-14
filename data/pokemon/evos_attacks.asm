@@ -1236,7 +1236,7 @@ CloysterEvosAttacks:
 	db 1, AURORA_BEAM
 	db 1, PROTECT
 	db 33, SPIKES
-	db 41, SPIKE_CANNON
+	db 41, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 GastlyEvosAttacks:
@@ -1897,7 +1897,7 @@ OmastarEvosAttacks:
 	db 19, WATER_GUN
 	db 31, LEER
 	db 37, PROTECT
-	db 40, SPIKE_CANNON
+	db 40, ROCK_SLIDE
 	db 54, ANCIENTPOWER
 	db 65, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2326,6 +2326,7 @@ CrobatEvosAttacks:
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK
 	db 55, HAZE
+	db 60, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:

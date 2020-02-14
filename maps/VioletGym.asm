@@ -127,15 +127,15 @@ FalknerIntroText:
 	cont "#MON!"
 
 	para "I'll show you the"
-	line "real power of the"
+	line "real power of these"
 
-	para "magnificent bird"
+	para "magnificent birds"
 	line "#MON!"
 	done
 
 FalknerWinLossText:
 	text "…Darn! My dad's"
-	line "cherished bird"
+	line "cherished birds"
 	cont "#MON…"
 
 	para "All right."
@@ -144,6 +144,10 @@ FalknerWinLossText:
 	para "It's the official"
 	line "#MON LEAGUE"
 	cont "ZEPHYRBADGE."
+	
+	para "Now stronger #MON"
+	line "will obey you."
+	cont "Up to lvl 15."
 	done
 
 ReceivedZephyrBadgeText:
@@ -196,9 +200,9 @@ FalknerFightDoneText:
 	line "GYMS in cities and"
 	cont "towns ahead."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "If you want to"
+	line "get stronger, then"
+	cont "take their challenges."
 
 	para "I'm going to train"
 	line "harder to become"
@@ -246,8 +250,8 @@ BirdKeeperAbeBeatenText:
 
 BirdKeeperAbeAfterBattleText:
 	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	line "I thought my Murkrow"
+	cont "could never lose…"
 	done
 
 VioletGymGuyText:
